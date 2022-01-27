@@ -1,0 +1,435 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #5d4954;
+}
+
+.logo {
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+}
+
+.topPicks {
+  height: 93vh;
+  background-image: url("https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  color: #5d4954;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pickItemImg {
+  width: 100%;
+}
+
+.mostWanted {
+  font-weight: 900;
+  color: #5d4954;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.slider {
+  padding: 3% 5%;
+  background: linear-gradient(to left top, #3c3231, #5d4954);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meniu {
+  padding: 3% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("https://image.freepik.com/free-vector/coffee-seamless-pattern-background-vector-with-white-icons-black-coffee-pot-percolator-steaming-mugs-cups-beans-hearts-espresso-filter-cappuccino-iced-coffee-square-format_1284-44088.jpg");
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.listaCafeluta {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+.cafelutaItem {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.numeCafea {
+  color: rgb(226, 226, 226);
+}
+
+.descriere {
+  color: rgb(226, 226, 226);
+}
+
+.rightButton {
+  cursor: pointer;
+}
+
+.leftButton {
+  cursor: pointer;
+}
+
+.rightButton div {
+  width: 40px;
+  height: 3px;
+  margin: 5px;
+  background-color: rgb(226, 226, 226);
+}
+.leftButton div {
+  width: 40px;
+  height: 3px;
+  margin: 5px;
+  background-color: rgb(226, 226, 226);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 125px;
+  width: 100vw;
+  background: linear-gradient(to left top, #3c3231, #5d4954);
+}
+.randomBtn {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #5d4954;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.buttonLine1 {
+  transform: rotate(45deg) translate(-5px, -20px);
+}
+
+.buttonLine2 {
+  transform: rotate(-45deg) translate(5px, 8px);
+}
+
+.buttonLine3 {
+  transform: rotate(45deg) translate(16px, 20px);
+}
+
+.buttonLine4 {
+  transform: rotate(-45deg) translate(5px, -8px);
+}
+
+.coffeBackground {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.picture {
+  width: 100%;
+}
+.cbLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffeDesc1 {
+  font-weight: 600;
+  color: #5d4954;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+.coffeDesc2 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #5d4954;
+  padding: 30px;
+}
+
+.tryNow {
+  margin-top: 30px;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #5d4954;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+
+  padding: 50px;
+  background: linear-gradient(to left top, #3c3231, #5d4954);
+  text-align: center;
+  color: rgb(226, 226, 226);
+}
+
+.galleryItem {
+  flex: 1;
+  padding: 50px;
+}
+
+.galleryImg {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.newArrivals {
+  display: flex;
+}
+
+.naItem {
+  flex: 1;
+  justify-content: center;
+  background-color: white;
+  color: #5d4954;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.naImg {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.naTitle {
+  font-size: 40px;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  list-style: none;
+  padding: 0px;
+}
+
+.fListItem {
+  margin-bottom: 20px;
+  color: #5d4954;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px 50px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.fInput {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.fInput::placeholder {
+  color: #5d4954;
+}
+
+.fButton {
+  color: #5d4954;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 93.5vh;
+    top: 8vh;
+    background-color: rgba(84, 73, 93, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+  }
+
+  .nav-links a {
+    color: whitesmoke;
+    font-weight: 900;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listaCafeluta {
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .newArrivals {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coffeBackground {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coffeDesc1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .coffeDesc2 {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .footerRightMenu {
+    margin-left: 12%;
+  }
+
+  .nav-active {
+    transform: translate(0%);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toogle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    transition: all 0.5s ease-in;
+  }
+  .toogle .line2 {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+  }
+  .toogle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    transition: all 0.5s ease-in;
+  }
+}
