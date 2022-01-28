@@ -86,38 +86,9 @@ nav a {
   align-items: center;
 }
 
-.meniu {
-  padding: 3% 5%;
-  display: flex;
-  flex-wrap: wrap;
-  background: url("https://image.freepik.com/free-vector/coffee-seamless-pattern-background-vector-with-white-icons-black-coffee-pot-percolator-steaming-mugs-cups-beans-hearts-espresso-filter-cappuccino-iced-coffee-square-format_1284-44088.jpg");
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.listaCafeluta {
-  display: flex;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  width: 100%;
-}
-
 .cafelutaItem {
-  width: 300px;
   height: 300px;
-  padding: 20px;
-}
-
-.numeCafea {
-  color: rgb(226, 226, 226);
-}
-
-.descriere {
-  color: rgb(226, 226, 226);
+  width: 300px;
 }
 
 .rightButton {
@@ -145,8 +116,8 @@ nav a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 125px;
-  width: 100vw;
+  height: 20vh;
+  width: 100%;
   background: linear-gradient(to left top, #3c3231, #5d4954);
 }
 .randomBtn {
@@ -379,6 +350,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+
+  .listaCafeluta {
+    width: 100%;
+  }
+
+  .imgItem {
+    object-fit: cover;
   }
 
   .newArrivals {

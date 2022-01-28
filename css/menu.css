@@ -1,0 +1,32 @@
+.meniu {
+  padding: 3% 8%;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to left top, #3c3231, #5d4954);
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.listaCafeluta {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.cafelutaItem {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.numeCafea {
+  color: rgb(226, 226, 226);
+}
+
+.descriere {
+  color: rgb(226, 226, 226);
+}

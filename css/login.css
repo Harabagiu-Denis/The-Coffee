@@ -1,0 +1,41 @@
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url("https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.container {
+  background-color: rgba(84, 73, 93, 0.2);
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.login {
+  margin-top: 0px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.buttonForm {
+  width: 100px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 25%;
+  font-weight: 700;
+  color: #5d4954;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
